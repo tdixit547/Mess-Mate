@@ -92,7 +92,3 @@ For any inquiries, please contact us at `tanmaydixit547@gmail.com`.
 ```
 
 You can copy and paste this into your `README.md` file on GitHub.
-
-
----
-

@@ -29,18 +29,69 @@ A Django-based web application built to efficiently manage hostel mess operation
 ```bash
 git clone https://github.com/yourusername/hostel-mess-management.git
 cd hostel-mess-management
-### 2. Set Up a Virtual Environment
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows, use venv\Scripts\activate
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-### 4. Run Migrations
-```bash
-python manage.py migrate
-### 5. Create a Superuser
-```bash
+```
+
+2. **Set Up Virtual Environment:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run Migrations:**
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Create a Superuser:**
+   ```bash
+   python manage.py createsuperuser
+   ```
+
+6. **Run the Development Server:**
+   ```bash
+   python manage.py runserver
+   ```
+
+7. **Access the Application:**
+   Open your browser and navigate to `http://127.0.0.1:8000`.
+
+## Screenshots
+
+*Add screenshots here to demonstrate key features of the application.*
+
+- **Dashboard:**
+  ![Dashboard](screenshots/dashboard.png)
+
+- **Apply for Messcut:**
+  ![Apply for Messcut](screenshots/apply_messcut.png)
+
+- **QR Code Scanning:**
+  ![QR Code Scanning](screenshots/scan_qr.png)
+
+- **View and Pay Mess Bill:**
+  ![View and Pay Mess Bill](screenshots/view_pay_bill.png)
+
+## Usage
+
+- **Students**: Log in to apply for mess cuts, view weekly menus, check and pay your mess bills, and submit feedback.
+- **Mess Assistants**: Use the QR code scanning feature to mark attendance and manage mess operations.
+- **Admins**: Oversee the entire system, manage users, and export bill data to CSV if needed.
+
+## Contribution
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## Contact
+
+For any inquiries, please contact us at `tanmaydixit547@gmail.com`.
+```
+
+You can copy and paste this into your `README.md` file on GitHub.
 python manage.py createsuperuser
 ### 6. Launch the Development Server
 ```bash

@@ -30,28 +30,20 @@ A Django-based web application built to efficiently manage hostel mess operation
 git clone https://github.com/yourusername/hostel-mess-management.git
 cd hostel-mess-management
 ### 2. Set Up a Virtual Environment
-bash
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
-3. Install Dependencies
-bash
-Copy
-Edit
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
-4. Run Migrations
-bash
-Copy
-Edit
+### 4. Run Migrations
+```bash
 python manage.py migrate
-5. Create a Superuser
-bash
-Copy
-Edit
+### 5. Create a Superuser
+```bash
 python manage.py createsuperuser
-6. Launch the Development Server
-bash
-Copy
-Edit
+### 6. Launch the Development Server
+```bash
 python manage.py runserver
 Now, open your browser and navigate to:
 📍 http://127.0.0.1:8000

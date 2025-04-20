@@ -25,11 +25,11 @@ A Django-based web application built to efficiently manage hostel mess operation
 
 ## 🛠️ Installation Guide
 
-1. Clone the Repository
-  ```bash
-  git clone https://github.com/yourusername/hostel-mess-management.git
-  cd hostel-mess-management
-  ```
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/yourusername/hostel-mess-management.git
+    cd hostel-mess-management
+    ```
 
 2. **Set Up Virtual Environment:**
    ```bash

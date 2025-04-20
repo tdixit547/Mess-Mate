@@ -96,4 +96,3 @@ You can copy and paste this into your `README.md` file on GitHub.
 
 ---
 
-Let me know if you'd like to auto-generate the screenshots layout using placeholders 
